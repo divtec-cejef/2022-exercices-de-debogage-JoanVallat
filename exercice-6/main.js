@@ -11,7 +11,7 @@ if (niveauDeCarburant >= 20000) {
 	lancementOk = false;
 }
 
-if (statutEquipage  && computerStatus === 'vert'){
+if (lancementOk && statutEquipage  && computerStatus === 'vert'){
 	console.log('Equipage et ordinateur approuvés.');
 	lancementOk = true;
 } else {
